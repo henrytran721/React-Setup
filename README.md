@@ -2,7 +2,7 @@
 
 1. [React Setup](#react)
 2. [Sass Setup with Webpack Config](#sass)
-3. [react-router-DOM Set Up] (#rrd)
+3. [react-router-DOM Set Up](#rrd)
 
 <a name='react'></a>
 
