@@ -2,6 +2,7 @@
 
 1. [React Setup](#react)
 2. [Sass Setup with Webpack Config](#sass)
+3. [react-router-DOM Set Up] (#rrd)
 
 <a name='react'></a>
 
@@ -155,3 +156,26 @@ rules: [
     extensions: ['.js', '.jsx', '.scss']
   }
   ```
+  <a name='rrd'></a>
+
+  # React-Router-DOM Set Up
+
+  1. Start by installing the library 'react-router-dom' by using: 
+  ```
+  npm install react-router-dom
+  ```
+  2. Import BrowserRouter, Route, and Link into App.js
+
+  ```
+  import { BrowserRouter, Route, Link } from 'react-router-dom'
+  ```
+
+  3. Use by declaring BrowserRouter as parent and Route as child with path
+  ``` 
+  <BrowserRouter>
+    <Route exact path = '/' component={Homepage} />
+  </BrowserRouter> 
+  ```
+
+
+
