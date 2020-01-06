@@ -34,7 +34,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     // takes in index.js
-    entry: './app/index.js',
+    entry: './src/index.js',
     // creates a folder called dist and creates a file called index_bundle.js with all of our code
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -50,7 +50,7 @@ module.exports = {
     plugins: [
         // creates an index.html file that ties in with index_bundle.js
         new HtmlWebpackPlugin({
-            template: 'app/index.html'
+            template: 'src/index.html'
         })
     ]
 }
